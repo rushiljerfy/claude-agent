@@ -1,0 +1,1 @@
+This is an agentic AI wrapper powered by Claude. It serves as a lightweight agent that reads user tasks and autonomously decides what tools to use (ie read files, run commands, write code) to complete the request. The agent loops through execution and reflection until the task is complete.
