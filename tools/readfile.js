@@ -1,4 +1,7 @@
 /*
+
+Purpose: read file asynchonously
+
 1. Take filepath as input
 2. Read content
 3. Return content to caller
