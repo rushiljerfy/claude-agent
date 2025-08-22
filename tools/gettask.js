@@ -15,7 +15,7 @@ function getTaskFromCLI() {
     return null;
 }
 
-async function getTaskFromFile(filePath = "task.txt") {
+async function getTaskFromFile(filePath = "../task.txt") {
     try {
         const rawText = await readFile(filePath, "utf-8");
         const normalized = (rawText ?? "").trim();
@@ -28,6 +28,9 @@ async function getTaskFromFile(filePath = "task.txt") {
     return null;
 }
 
+/*
+Can use below want task input from somewhere else
+*/
 async function getTaskFromStdin() {
     if (process.stdin.isTTY) {
         return null;
